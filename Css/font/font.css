@@ -1,0 +1,9 @@
+h1{
+    font-family: Roboto, verdana, arial;
+}
+p{
+    font-family:"Courier+Prime", "Lucida Console", "Courier New";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}

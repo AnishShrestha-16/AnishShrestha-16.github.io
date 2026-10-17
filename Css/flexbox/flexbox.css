@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+
+.box{
+    width: 150px;
+    font-size: 8em;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: red;
+    align-self: start;
+}
+#box2{
+    background-color: blue;
+    align-self: end;
+}
+#box3{
+    background-color: green;
+    align-self: center;
+}
+#box4{
+    background-color: yellow;
+    align-self: stretch;
+}
+#box5{
+    background-color: purple;
+    align-self: baseline;
+}
+#box6{
+    background-color: orange;
+    align-self: auto;
+}
+#box7{
+    background-color: pink;
+}
+#box8{
+    background-color: cyan;
+}

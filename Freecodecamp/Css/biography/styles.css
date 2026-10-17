@@ -1,0 +1,53 @@
+body{
+  font-family: sens-serif;
+  text-align: centre;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#main{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#img-div{
+  background-color: #eeeeee;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555555;
+}
+
+#tribute-info{
+  text-align: left;
+  margin-top: 30px;
+}
+
+#tribute-info ul{
+  line-height: 1.6;
+}
+
+#signature{
+  font-size: 20px;
+  margin: auto;
+  font-style: italic;
+}
+
+#ending{
+  font-size: 22px;
+}

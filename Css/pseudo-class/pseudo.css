@@ -1,0 +1,9 @@
+li:hover{
+    background-color: rgb(255, 0, 0);
+}
+li:not(:hover){
+    background-color: pink;
+}
+li:nth-child(2n){
+    background-color: cyan;
+}
