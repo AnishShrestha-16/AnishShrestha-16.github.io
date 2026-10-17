@@ -1,0 +1,125 @@
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      color: #222;
+    }
+    hr{
+        width: 100%;
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 2rem 0;
+    }
+
+    .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .pricing-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5rem 1.25rem;
+      width: 210px;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .pricing-card:hover {
+      transform: scale(1.07);
+      box-shadow: 0 10px 36px rgba(0, 0, 0, 0.13);
+      z-index: 10;
+    }
+
+ 
+
+    .plan-title {
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      color: #111;
+      margin-bottom: 4px;
+    }
+
+    .plan-price {
+      font-size: 22px;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: underline;
+      color: #111;
+      margin-bottom: 14px;
+    }
+
+    .pricing-card hr {
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      margin-bottom: 14px;
+    }
+
+    .feature-list {
+      list-style: none;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    .feature-list li {
+      font-size: 14px;
+      color: #222;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      line-height: 1.4;
+    }
+
+    .icon-check { color: #2a8a4a; flex-shrink: 0; margin-top: 1px; }
+    .icon-x     { color: #c0392b; flex-shrink: 0; margin-top: 1px; }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 11px 0;
+      background: #f0a500;
+      border: none;
+      border-radius: 7px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #3d2200;
+      cursor: pointer;
+      text-align: center;
+      transition: background 0.2s;
+    }
+
+    .btn:hover { background: #d49008; }
+
+    .badge {
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      background: #ddeeff;
+      color: #1155aa;
+      border-radius: 6px;
+      padding: 3px 10px;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+  
